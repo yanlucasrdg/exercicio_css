@@ -1,0 +1,163 @@
+* .container{
+	width: 1366px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #ffffff;
+	border: black;
+}
+
+.container{
+	background-color: rgba(248, 187, 74, 0.925);
+	padding: 1%;
+}
+
+
+header li {
+	display: inline
+	
+}
+
+
+
+.articles article img{
+	height: 180px;
+}
+
+.button {
+	background: rgb(3, 207, 207, 0.925);
+	background: linear-gradient(0deg, rgba(3, 207, 207, 0.925) 0%, rgba(3, 207, 207, 0.925) 100%);
+	width: 130px;
+	height: 40px;
+	line-height: 42px;
+	padding: 0;
+	border: none;
+	display: inline-block
+	
+}
+.button span {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.button:before,
+.button:after {
+	position: absolute;
+	content: "";
+	right: 0;
+	top: 0;
+	background: rgba(2,126,251,1);
+	transition: all 0.3s ease;
+}
+.button:before {
+	height: 0%;
+	width: 2px;
+}
+.button:after {
+	width: 0%;
+	height: 2px;
+}
+.button:hover{
+	background: transparent;
+	box-shadow: none;
+}
+.button:hover:before {
+	height: 100%;
+}
+.button:hover:after {
+	width: 100%;
+}
+.button span:hover{
+	color: rgba(2,126,251,1);
+}
+.button span:before,
+.button span:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	background: rgba(2,126,251,1);
+	transition: all 0.3s ease;
+}
+.button span:before {
+	width: 2px;
+	height: 0%;
+}
+.button span:after {
+	width: 0%;
+	height: 2px;
+}
+.button span:hover:before {
+	height: 100%;
+}
+.button span:hover:after {
+	width: 100%;
+}
+
+section h2,
+.articles article{
+	margin-bottom: 16px;
+}
+
+.articles article h3{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.articles article a{
+	background-color: blue;
+	color: #fff;
+	padding: 8px;
+}
+
+section h4,
+.articles article {
+	background-color: blue;
+}
+.tech {
+	color: rgb(255, 0, 0);
+}
+.articles article h3{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+section h2{
+    .articles article {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+}
+.articles article a {
+	background-color: blue;
+	color: rgb(255, 255, 255);
+	padding: 8px;
+	display: inline-block;
+}
+
+#sports {
+	background-color: rgb(100, 182, 114);
+}
+
+#economy {
+	background-color: rgb(65, 141, 160);
+}
+
+#tech {
+	background-color: rgb(190, 62, 165);
+}
+
+#curso {
+	background-color: rgb(13, 88, 51);
+	
+}
+
+#entertainment {
+	background-color: rgb(155, 82, 82)
+}
+
+#sports .articles article a {
+	background-color: rgb(103, 155, 82);
+}
+
